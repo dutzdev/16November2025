@@ -1,0 +1,221 @@
+<!doctype html>
+<html lang="id">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Kareviana & Erlangga</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Sacramento&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <section id="hero"
+        class="hero w-100 h-100 p-3 mx-auto text-center d-flex justify-content-center align-items-center">
+        <main>
+            <h4>Kepada Bapak/Ibu/Saudara/i,</h4>
+            <h1>Kareviana & Erlangga</h1>
+            <p>Akan melangsungkan resepsi pernikahan dalam:</p>
+
+            <!-- Countdown -->
+            <div id="countdown">
+                <div><span id="days">0</span><small>Hari</small></div>
+                <div><span id="hours">0</span><small>Jam</small></div>
+                <div><span id="minutes">0</span><small>Menit</small></div>
+                <div><span id="seconds">0</span><small>Detik</small></div>
+            </div>
+
+            <a href="#undangan" class="btn btn-lg mt-4 btn-undangan">Lihat Undangan</a>
+        </main>
+    </section>
+
+    <nav class="navbar navbar-expand-md bg-body-transparent sticky-top mynavbar">
+        <div class="container">
+            <a class="navbar-brand" href="#">K & E</a>
+            <button class="navbar-toggler border-0" type="button" data-bs-toggle="offcanvas"
+                data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar"
+                aria-labelledby="offcanvasNavbarLabel">
+                <div class="offcanvas-header">
+                    <h5 class="offcanvas-title" id="offcanvasNavbarLabel">K & E</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                </div>
+                <div class="offcanvas-body">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#home">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#info">Info</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#story">Story</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#gallery">Gallery</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#rsvp">RSVP</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#gifts">Gifts</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <section id="home" class="home">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-md-8 text-center">
+                    <h2>Acara Pernikahan</h2>
+                    <h3>Diselenggarakan pada 16 November 2025 di Bogor, Jawa Barat</h3>
+                    <p>Oleh karena itu, dengan segala hormat, kami bermaksud untuk mengundang Bapak/Ibu,
+                        Saudara/i untuk hadir dan memberikan doa restu pada acara pernikahan kami.
+                    </p>
+                </div>
+            </div>
+            <div class="row couple">
+                <div class="col-lg-6">
+                    <div class="row">
+                        <div class="col-8 text-end">
+                            <h3 class="text-nowrap">Kareviana Tresnawati Yulinar</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat rerum atque quas tempora
+                                voluptatum? Voluptatum eaque dignissimos voluptatem cupiditate. Quaerat mollitia sequi
+                                commodi corrupti labore eos, sunt repellendus dolor odit!</p>
+                            <p>Putri dari Bapak M. Kamal Hidayat <br> dan <br> Ibu Suhartini</p>
+                        </div>
+                        <div class="col-4">
+                            <img src="img/461.png" alt="Kareviana Tresnawati Yulinar" class="rounded-circle">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="row">
+                        <div class="col-4">
+                            <img src="img/46.png" alt="Muhammad Dwi Erlangga" class="rounded-circle">
+                        </div>
+                        <div class="col-8 text-start">
+                            <h3>Muhammad Dwi Erlangga</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat rerum atque quas tempora
+                                voluptatum? Voluptatum eaque dignissimos voluptatem cupiditate. Quaerat mollitia sequi
+                                commodi corrupti labore eos, sunt repellendus dolor odit!</p>
+                            <p>Putra dari Bapak Mulyono <br> dan <br> Ibu Lilis Holisoh</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </section>
+
+    <section id="info" class="info">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-md-8 col-10 text-center">
+                    <h2>Informasi Acara</h2>
+                    <p class="alamat">Alamat: Villa Bata Merah. <br> Kecamatan Cijeruk, Kabupaten Bogor, Jawa Barat</p>
+                </div>
+                <p class="text-center">
+                    <a href="https://maps.app.goo.gl/4TbJfK6ZZ4YQXkoC9" target="_blank"
+                        class="btn btn-light btn-sm">Lihat di Google Maps</a>
+                </p>
+                <p class="description">Diharapkan kehadiran Bapak/Ibu/Saudara/i untuk memberikan doa restu.</p>
+            </div>
+        </div>
+        <div class="row justify-content-center mt-4">
+            <div class="col-md-5 col-10">
+                <div class="card text-center text-bg-light mb-5">
+                    <div class="card-header">Akad Nikah</div>
+                    <div class="card-body">
+                        <div class="row justify-content-center">
+                            <div class="col-md-6">
+                                <i class="bi bi-clock d-block"></i>
+                                <span>08.00 - 10.00</span>
+                            </div>
+                            <div class="col-md-6">
+                                <i class="bi bi-calendar3 d-block"></i>
+                                <span>Minggu, 16 November 2025</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card-footer">
+                        Saat acara akad diharapkan untuk kondusif menjaga kekhidmatan dan kekhusyuan seluruh prosesi.
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-5 col-10">
+                <div class="card text-center text-bg-light">
+                    <div class="card-header">Resepsi</div>
+                    <div class="card-body">
+                        <div class="row justify-content-center">
+                            <div class="col-md-6">
+                                <i class="bi bi-clock d-block"></i>
+                                <span>11.00 - selesai</span>
+                            </div>
+                            <div class="col-md-6">
+                                <i class="bi bi-calendar3 d-block"></i>
+                                <span>Minggu, 16 November 2025</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card-footer">
+                        Saat acara akad diharapkan untuk kondusif menjaga kekhidmatan dan kekhusyuan seluruh prosesi.
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+    </section>
+
+    <script>
+      
+        const targetDate = new Date("2025-11-16T08:00:00").getTime();
+
+        function updateCountdown() {
+            const now = new Date().getTime();
+            const distance = targetDate - now;
+
+            if (distance < 0) {
+                document.getElementById("countdown").innerHTML = "<h3>Acara Telah Dimulai 🎉</h3>";
+                return;
+            }
+
+            const days = Math.floor(distance / (1000 * 60 * 60 * 24));
+            const hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+            const minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+            const seconds = Math.floor((distance % (1000 * 60)) / 1000);
+
+            document.getElementById("days").innerText = days;
+            document.getElementById("hours").innerText = hours;
+            document.getElementById("minutes").innerText = minutes;
+            document.getElementById("seconds").innerText = seconds;
+        }
+
+        setInterval(updateCountdown, 1000);
+        updateCountdown();
+    </script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+        crossorigin="anonymous"></script>
+
+</body>
+
+</html>
